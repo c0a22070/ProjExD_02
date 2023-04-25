@@ -10,7 +10,7 @@ delta = {
         pg.K_RIGHT: (+1, 0),
         }
 
-def init_kk_imgs():  # 追加機能１未完 
+def i_kk_imgs():  # 追加機能１未完 
     kk_img = pg.image0.load("ex02/fig/3.png")  # 追加機能１未完 
     kk_img0 = pg.transform.rotozoom(kk_img, 0, 2.0)  # 追加機能１未完 
     return{
